@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #f8fafc;
+  overflow: hidden;
+}
+
+.title-font {
+  font-family: 'Cinzel', serif;
+}
+
+.shiva-glow {
+  box-shadow: 0 0 50px 20px rgba(59, 130, 246, 0.3);
+}
